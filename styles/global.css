@@ -61,9 +61,11 @@ nav ul li:hover{
     transition: all 0.2s;
     font-weight: bold;
 }
+/*
 .menu-button{
     display: none;
 }
+*/
 header{
     background-image: radial-gradient(#FFF,#c7c7c7);
 }
@@ -72,6 +74,10 @@ header{
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    margin-bottom: 0rem;
+}
+.button-ver-agora{ padding: 30rem;
+    margin-bottom:1rem;
 }
 .header-botton-side-left{
     height: 100%;
@@ -98,7 +104,7 @@ header{
     background-color: #0054FF;
     border:none;
     cursor: pointer;
-    padding: 0.8rem 3.8rem;
+    padding: 0.8rem 0.8rem;
     border-radius: 9999px;
     color: #FFFFFF;
     font-weight: 500px;
@@ -112,9 +118,11 @@ header{
     .logo{
         font-size: 1.2rem;
     }
+    /*
     .menu-button{
         display: block;
     }
+    */
     .header-botton-side{
         flex-direction: column;
         text-align: center;
@@ -126,10 +134,9 @@ header{
         width: 100%;
         top: 46px;
         display: none;
-    }
+    }/*
     .show-menu nav{
-        display: block;
-    }
+    }*/
     nav ul{
         flex-direction: column;
     }
@@ -282,6 +289,22 @@ main{
 .header-bottom-side-left{
     padding: 15px;
    text-align: center;
+}
+
+.page-inner-content-combo img{
+    margin: auto;
+}
+
+.paragrafo-indica{
+    text-align: justify;
+}
+
+.page-inner-content-left{
+ display: flex;
+ text-align: center;
+ padding: 4rem 1rem;
+ justify-content: space-evenly;
+ flex-direction: column;
 }
 
 @media(max-width:800px){
