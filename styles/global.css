@@ -97,8 +97,7 @@ header{
     justify-content: center;
 }
 .header-botton-side-right img{
-    width: 100%;
-    margin: 0;
+    width: 115%;
 }
 .header-botton-side-left button{
     background-color: #0054FF;
@@ -225,6 +224,19 @@ main{
 }
 .exclusive-container img{
     max-width: 500px;
+}
+
+/*
+.logo{
+    color: #0084ff;
+}
+.logo span{
+    color: #ffffff;
+}
+*/
+
+.nome-titular span{
+    color: #0084ff;
 }
 @media(max-width:800px){
     .section-title{
