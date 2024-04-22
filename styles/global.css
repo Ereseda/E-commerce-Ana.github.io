@@ -222,21 +222,12 @@ main{
     flex-direction: row-reverse;
     padding: 5rem 1rem;
 }
-.exclusive-container img{
-    max-width: 500px;
-}
-
-/*
-.logo{
-    color: #0084ff;
-}
-.logo span{
-    color: #ffffff;
-}
-*/
-
 .nome-titular span{
     color: #0084ff;
+}
+
+.header-bottom-side-right{
+    text-align: center;
 }
 @media(max-width:800px){
     .section-title{
@@ -260,7 +251,6 @@ main{
         margin-bottom: 4rem;
     }   
 }
-
     .testimonials{
         display: flex;
         padding: 4rem 1rem;
